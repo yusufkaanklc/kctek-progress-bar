@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="main">
+      <div class="content-box">
+        <h4 class="content-title">Sınav cevapları gönderiliyor</h4>
+        <div class="upload-box">
+          <div class="title">Sınav adı</div>
+          <div class="progress" role="progressbar" aria-label="Success striped example" >
+            <div class="progress-bar progress-bar-striped bg-success"></div>
+          </div>
+          <div class="upload-info-container">
+            <div class="upload-count"></div>
+            <div class="loading-status">Yükleniyor</div>
+          </div>
+          </div>
+        </div>
+        <div class="finish-box">
+            <div class="title">Sınavı bitirmek için butona tıklamanız gerekmektedir.</div>
+            <button type="button" class="btn btn-success">Sınavı bitir/Tamamla</button>
+          </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
 </html>
